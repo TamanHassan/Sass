@@ -1,6 +1,6 @@
 nav {
     background-color: white;
-    padding: 1rem 2 rem;
+    padding: 1rem 2rem;
     border-bottom: 1px solid #eaeaea;
      }
 
@@ -11,13 +11,13 @@ nav {
      }
 
 a {
-    color: primary-color;
+    color: $color-link;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
 
     &:hover {
-        color: accent-color;
+        color: $color-primary;
      }
       }
 
@@ -28,7 +28,7 @@ a {
     color: white;
     cursor: pointer;
     }
-    
+
 
         
 

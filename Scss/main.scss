@@ -1,5 +1,6 @@
 // main.scss
-@import 'components';
-@import 'layout';
-@import 'variables';
-@import 'base';
+@use 'variables';
+@use 'mixins';
+@use 'base';
+@use 'layout';
+@use 'components';

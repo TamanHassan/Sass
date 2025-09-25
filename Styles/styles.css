@@ -1,13 +1,12 @@
 .project-grid {
-    display: grid;
-    grid-template-columns: repeat(3,auto);
-    gap: 10px;
-    justify-content: center;
+    column-count: 3;
+    column-gap: 20px;
 
 }
 
 .project-grid img {
     width: 100%;
-    height: auto;
+    margin-bottom: 20px;
     display: block;
+    break-inside: avoid;
 }
