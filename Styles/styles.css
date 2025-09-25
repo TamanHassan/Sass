@@ -1,0 +1,13 @@
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 10px;
+    justify-content: center;
+
+}
+
+.project-grid img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
