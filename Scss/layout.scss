@@ -3,7 +3,7 @@
         font-size: 24px;
         line-height: 1.4;
         max-width: 400px;
-        margin-bottom: $spacing-md;
+        margin-bottom:variables.$spacing-md;
     }
 
  a {
@@ -13,12 +13,12 @@
 
 .gallery { 
     column-count: 3;
-    column-gap: $spacing-md;
-    margin-bottom: $spacing-lg;
+    column-gap: variables.$spacing-md;
+    margin-bottom: variables.$spacing-lg;
 
     img {
         width: 100%;
-        margin-bottom: $spacing-md;
+        margin-bottom: variables.$spacing-md;
         display: block;
         break-inside: avoid;
         border-radius: 8px;    
@@ -26,36 +26,36 @@
      }
 
     .description {
-        margin: $spacing-lg 0;
+        margin: variables.$spacing-lg 0;
         max-width: 500px;
         font-size: 16px;   
     }
 
     .footer {
         display: flex;
-        gap: $spacing-lg;
-        margin-top: $spacing-lg;
+        gap: variables.$spacing-lg;
+        margin-top: variables.$spacing-lg;
 
     div {
         flex: 1;
         
 
         h4 {
-            margin-bottom: $spacing-sm;
+            margin-bottom: variables.$spacing-sm;
             font-weight: bold;
             }
 
         p {
             font-size: 14px;
-            color: $color-secondary;
+            color: variables.$color-secondary;
             }
           }
          } 
 
     .copyright {
-        margin-top: $spacing-lg * 2;
+        margin-top: variables.$spacing-lg * 2;
         font-size: 14px;
-        color: $color-light;
+        color: variables.$color-light;
         }
 
         

@@ -5,16 +5,17 @@ box-sizing: border-box;
 }
 
 body {
-    font-family: $font-base;
-    color: $color-primary;
-    margin: $spacing-lg auto;
+    font-family: variables.$font-base;
+    color: variables.$color-primary;
+    margin: variables.$spacing-lg auto;
     max-width: 1200px;
-    padding: 0 $spacing-md;
+    padding: 0 variables.$spacing-md;
     line-height: 1.6;
 }
 
 a {
-    color: $color-link;
+    color: variables.$color-link;
+    margin-bottom: variables.$spacing-md;
     text-decoration: underline;
     font-size: 14px;
 }
