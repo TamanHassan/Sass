@@ -20,5 +20,15 @@ a {
         color: accent-color;
      }
       }
+
+.button {
+    padding: $spacing-sm $spacing-md;
+    border: none;
+    background: $color-primary;
+    color: white;
+    cursor: pointer;
+    }
+    
+
         
 
