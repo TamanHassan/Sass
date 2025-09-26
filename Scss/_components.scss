@@ -11,20 +11,20 @@ nav {
      }
 
 a {
-    color: $color-link;
+    color: variables.$color-link;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
 
     &:hover {
-        color: $color-primary;
+        color: variables.$color-primary;
      }
       }
 
 .button {
-    padding: $spacing-sm $spacing-md;
+    padding: variables.$spacing-sm $spacing-md;
     border: none;
-    background: $color-primary;
+    background: variables.$color-primary;
     color: white;
     cursor: pointer;
     }
