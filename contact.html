@@ -5,40 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="Styles/normalize.css">
-    <link rel="stylesheet" href="Styles/styles.css"> 
+    <link rel="stylesheet" href="Styles/Styles.contact.css"> 
 </head>
 <body>
-    <header>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="index.html">Projects</a></li>
-                <li><a href="project.html">Case Study</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+        <header class="hero">
+    <div class="logo">Genesis</div>
+    <nav class="nav-links">
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+    </nav>
     </header>
 
-    <main class="contact-page">
-        <section class="contact-form.section">
-            <h1>Full set of great features to make your product fresh</h1>
-            <p>Get in touch using the form below or connect via social media</p>
 
-            <form class="contact-form" action="#" method="post">
+    <main class="contact-page">
+        <section class="contact-intro">
+            <div class="intro-text">
+            <h1>Full set of great features to make your product fresh</h1>
+            <p>Our favorite brands are our friend. We help them achieve their goals and stay sharp</p>
+            </div>
+            </section>
+
+            
+
+            <section class="contact-form-wrapper">
+            <form class="contact-form-wrapper" action="#" method="post">
                 <label for="name">Name</label>
                 <input type="text" id="name" name="name" required>
+
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+
 
                 <button type="submit">Submit</button>
                 </form>
             </section>
+            </main>
 
             <section class="map">
-                <img src="" alt="">
+                <img src="images/Map.png" alt="map">
                 </section>
                 </main>
-                </footer>
-                </html>
+                 <footer>
+            <p class="site-name">Genesis</p>
+            <div class="footer-right">
+            <nav>
+                <a href="#">Projects</a>
+                <a href="#">Contact</a>
+            </nav>
+            <img src="images/Social.svg" alt="social media icons" class="social-icons">
+        </div>
+        </footer>      
+        </body>
+        </html>
         
             
     
